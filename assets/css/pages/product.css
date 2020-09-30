@@ -845,6 +845,19 @@
   }
 }
 
+.p-product .c-product-content .c-heading-cmn-01 > .icon .i-thumb-white {
+  width: 17px;
+  height: 18px;
+  background: url(/assets/img/svg/icon-thumbup-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .p-product .c-product-content .c-text-cmn-01 {
   font-size: 1.6rem;
   color: #777;
@@ -1231,6 +1244,45 @@
   }
 }
 
+.p-product .c-product-list__box-product-content-icon > .i-book-white {
+  width: 16px;
+  height: 20px;
+  background: url(/assets/img/svg/icon-book-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.p-product .c-product-list__box-product-content-icon > .i-list-white {
+  width: 14px;
+  height: 15px;
+  background: url(/assets/img/svg/icon-list-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.p-product .c-product-list__box-product-content-icon > .i-handheart-white {
+  width: 18px;
+  height: 18px;
+  background: url(/assets/img/svg/icon-handheart-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .p-product .c-product-list__box-product-content-text {
   font-size: 1.6rem;
   color: #777;
@@ -1493,19 +1545,13 @@
 }
 
 .product-swiper-container .article-content .c-badge__item.-level > .icon {
-  background: #FFC416;
-}
-
-.product-swiper-container .article-content .c-badge__item.-level > .icon .fa-cook {
-  color: #211E1F;
+  background: url(/assets/img/svg/icon-chef-hat.svg) no-repeat center center #FFC416;
+  background-size: 20px;
 }
 
 .product-swiper-container .article-content .c-badge__item.-time > .icon {
-  background: #43AB3F;
-}
-
-.product-swiper-container .article-content .c-badge__item.-time > .icon .fa-clock {
-  color: #fff;
+  background: url(/assets/img/svg/icon-clock.svg) no-repeat center center #43AB3F;
+  background-size: 20px;
 }
 
 .product-swiper-container .article-content .c-badge__item:first-of-type {
@@ -1606,6 +1652,12 @@
   font-size: 1.6rem;
 }
 
+@media (min-width: 897px) and (max-width: 1439px) {
+  .product-swiper-container .article-content .c-box-card-01.-full:hover .c-text-cmn-01 {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 896px) {
   .product-swiper-container .article-content .c-box-card-01.-full:hover .c-text-cmn-01 {
     font-size: 1.4rem;
@@ -1655,6 +1707,12 @@
   transition: all .3s;
   font-size: 3rem;
   line-height: 1.1;
+}
+
+@media (min-width: 897px) and (max-width: 1439px) {
+  .product-swiper-container .article-content .box-content .c-heading-cmn-01 {
+    font-size: 2.6rem;
+  }
 }
 
 @media (max-width: 896px) {

@@ -179,11 +179,11 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
 }
 
 @media (max-width: 896px) {
   .p-contact-us .c-connect-with-us .c-list-sns {
+    width: 100%;
     margin-top: 20px;
   }
 }

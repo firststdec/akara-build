@@ -1708,7 +1708,7 @@ a {
 }
 
 .l-footer__content.-tel .icon-tel > i {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
 }
 
 @media (max-width: 896px) {
@@ -3632,9 +3632,9 @@ a {
 }
 
 .c-box-our-egg .c-heading-egg__icon > .c-egg-solid {
-  width: 22px;
+  width: 23px;
   height: 29px;
-  background: url(../../assets/img/svg/egg-solid.svg) no-repeat center center;
+  background: url(../../assets/img/svg/icon-egg.svg) no-repeat center center;
   background-size: cover;
 }
 
@@ -3753,6 +3753,23 @@ a {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
+}
+
+.c-box-our-farm .c-heading-egg__icon {
+  position: relative;
+}
+
+.c-box-our-farm .c-heading-egg__icon .i-barn-yellow {
+  width: 20px;
+  height: 20px;
+  background: url(../../assets/img/svg/icon-barn-yellow.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .c-box-scroll-spy {
@@ -7106,6 +7123,23 @@ variables above and don't change anything in the actual loader code
   right: -20px;
 }
 
+.c-our-brand .c-heading-egg__icon {
+  position: relative;
+}
+
+.c-our-brand .c-heading-egg__icon .i-barn-yellow {
+  width: 20px;
+  height: 20px;
+  background: url(../../assets/img/svg/icon-barn-yellow.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .l-sec-cmn-01.-recipes-top-heading {
   margin-top: 80px;
 }
@@ -9324,11 +9358,11 @@ variables above and don't change anything in the actual loader code
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
 }
 
 @media (max-width: 896px) {
   .p-contact-us .c-connect-with-us .c-list-sns {
+    width: 100%;
     margin-top: 20px;
   }
 }
@@ -10586,6 +10620,19 @@ variables above and don't change anything in the actual loader code
   }
 }
 
+.p-product .c-product-content .c-heading-cmn-01 > .icon .i-thumb-white {
+  width: 17px;
+  height: 18px;
+  background: url(../../assets/img/svg/icon-thumbup-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .p-product .c-product-content .c-text-cmn-01 {
   font-size: 1.6rem;
   color: #777;
@@ -10972,6 +11019,45 @@ variables above and don't change anything in the actual loader code
   }
 }
 
+.p-product .c-product-list__box-product-content-icon > .i-book-white {
+  width: 16px;
+  height: 20px;
+  background: url(../../assets/img/svg/icon-book-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.p-product .c-product-list__box-product-content-icon > .i-list-white {
+  width: 14px;
+  height: 15px;
+  background: url(../../assets/img/svg/icon-list-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.p-product .c-product-list__box-product-content-icon > .i-handheart-white {
+  width: 18px;
+  height: 18px;
+  background: url(../../assets/img/svg/icon-handheart-white.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .p-product .c-product-list__box-product-content-text {
   font-size: 1.6rem;
   color: #777;
@@ -11234,19 +11320,13 @@ variables above and don't change anything in the actual loader code
 }
 
 .product-swiper-container .article-content .c-badge__item.-level > .icon {
-  background: #FFC416;
-}
-
-.product-swiper-container .article-content .c-badge__item.-level > .icon .fa-cook {
-  color: #211E1F;
+  background: url(../../assets/img/svg/icon-chef-hat.svg) no-repeat center center #FFC416;
+  background-size: 20px;
 }
 
 .product-swiper-container .article-content .c-badge__item.-time > .icon {
-  background: #43AB3F;
-}
-
-.product-swiper-container .article-content .c-badge__item.-time > .icon .fa-clock {
-  color: #fff;
+  background: url(../../assets/img/svg/icon-clock.svg) no-repeat center center #43AB3F;
+  background-size: 20px;
 }
 
 .product-swiper-container .article-content .c-badge__item:first-of-type {
@@ -11347,6 +11427,12 @@ variables above and don't change anything in the actual loader code
   font-size: 1.6rem;
 }
 
+@media (min-width: 897px) and (max-width: 1439px) {
+  .product-swiper-container .article-content .c-box-card-01.-full:hover .c-text-cmn-01 {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 896px) {
   .product-swiper-container .article-content .c-box-card-01.-full:hover .c-text-cmn-01 {
     font-size: 1.4rem;
@@ -11396,6 +11482,12 @@ variables above and don't change anything in the actual loader code
   transition: all .3s;
   font-size: 3rem;
   line-height: 1.1;
+}
+
+@media (min-width: 897px) and (max-width: 1439px) {
+  .product-swiper-container .article-content .box-content .c-heading-cmn-01 {
+    font-size: 2.6rem;
+  }
 }
 
 @media (max-width: 896px) {
